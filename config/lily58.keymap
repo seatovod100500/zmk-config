@@ -71,11 +71,11 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans        &trans            &trans           &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans        &trans            &trans           &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &kp C_VOL_DN  &kp C_MUTE        &kp C_VOLUME_UP  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp C_PREV    &kp C_PLAY_PAUSE  &kp C_NEXT       &trans  &trans
+                        &trans  &trans  &trans  &trans    &trans  &trans  &trans        &trans
             >;
         };
     };
