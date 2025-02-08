@@ -51,7 +51,7 @@
 &none   &none   &kp HOME        &kp UP_ARROW    &kp END          &kp INSERT                          &kp PAGE_UP    &kp N7        &kp N8        &kp N9        &kp EXCLAMATION  &kp QUESTION
 &none   &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none                               &kp PAGE_DOWN  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PERIOD       &kp COMMA
 &trans  &trans  &trans          &kp CAPSLOCK    &trans           &kp DELETE  &trans       &trans     &none          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none            &none
-                                &trans          &trans           &mo 3       &kp SPACE    &kp ENTER  &mo 3          &kp NUMBER_0  &trans
+                                &none           &trans           &mo 3       &kp SPACE    &kp ENTER  &mo 3          &kp NUMBER_0  &trans
             >;
         };
 
