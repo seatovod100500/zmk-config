@@ -15,6 +15,8 @@
         LNG {
             bindings = <&mt LEFT_GUI SPACE>;
             key-positions = <36 49>;
+            slow-release;
+            require-prior-idle-ms = <0>;
         };
     };
 
