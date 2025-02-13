@@ -49,11 +49,11 @@
             //                       |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&none  &none   &none           &none           &none            &none                               &none           &none         &none         &none         &kp EXCLAMATION  &kp QUESTION
-&none  &none   &kp HOME        &kp UP_ARROW    &kp END          &kp INSERT                          &kp PAGE_UP     &kp N7        &kp N8        &kp N9        &kp KP_SUBTRACT  &kp KP_DIVIDE
-&none  &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none                               &kp PAGE_DOWN   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_PLUS      &kp KP_ASTERISK
-&none  &trans  &trans          &kp CAPSLOCK    &trans           &kp DELETE  &to 0        &tog 1     &kp UNDERSCORE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_COMMA     &kp KP_EQUAL
-                               &none           &trans           &mo 3       &kp SPACE    &kp ENTER  &mo 3           &kp NUMBER_0  &kp KP_DOT
+&trans  &none      &none           &none           &none            &none                               &kp KP_EQUAL    &none         &none         &none         &kp EXCLAMATION  &kp QUESTION
+&none   &kp PG_UP  &kp HOME        &kp UP_ARROW    &kp END          &kp INSERT                          &none           &kp N7        &kp N8        &kp N9        &kp KP_SUBTRACT  &kp KP_DIVIDE
+&none   &kp PG_DN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none                               &none           &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_PLUS      &kp KP_ASTERISK
+&trans  &trans     &trans          &kp CAPSLOCK    &trans           &kp DELETE  &to 0        &to 1      &kp UNDERSCORE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_COMMA     &trans
+                                   &trans          &trans           &mo 3       &kp SPACE    &kp ENTER  &mo 3           &kp NUMBER_0  &kp KP_DOT
             >;
         };
 
@@ -66,11 +66,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&studio_unlock  &trans                &kp AT_SIGN           &none      &kp HASH               &trans                             &none        &none             &kp CARET       &none              &none            &none
-&trans          &trans                &kp LESS_THAN         &kp EQUAL  &kp GREATER_THAN       &kp GRAVE                          &none        &kp LEFT_BRACKET  &kp UNDERSCORE  &kp RIGHT_BRACKET  &none            &none
-&trans          &kp NON_US_BACKSLASH  &kp LEFT_PARENTHESIS  &kp MINUS  &kp RIGHT_PARENTHESIS  &kp PLUS                           &kp PERCENT  &kp LEFT_BRACE    &kp SEMICOLON   &kp RIGHT_BRACE    &kp EXCLAMATION  &none
-&trans          &trans                &kp ASTERISK          &kp COLON  &kp DOLLAR             &none      &none        &trans     &none        &kp PIPE          &kp TILDE       &kp AMPERSAND      &none            &none
-                                                            &trans     &trans                 &mo 3      &kp SPACE    &kp ENTER  &mo 3        &trans            &trans
+&trans  &trans                &kp AT_SIGN           &none      &kp HASH               &trans                             &none        &none             &kp CARET       &none              &none            &studio_unlock
+&trans  &trans                &kp LESS_THAN         &kp EQUAL  &kp GREATER_THAN       &kp GRAVE                          &none        &kp LEFT_BRACKET  &kp UNDERSCORE  &kp RIGHT_BRACKET  &none            &none
+&trans  &kp NON_US_BACKSLASH  &kp LEFT_PARENTHESIS  &kp MINUS  &kp RIGHT_PARENTHESIS  &kp PLUS                           &kp PERCENT  &kp LEFT_BRACE    &kp SEMICOLON   &kp RIGHT_BRACE    &kp EXCLAMATION  &none
+&trans  &trans                &kp ASTERISK          &kp COLON  &kp DOLLAR             &none      &none        &trans     &kp UNDER    &kp PIPE          &kp TILDE       &kp AMPERSAND      &none            &trans
+                                                    &trans     &trans                 &mo 3      &kp SPACE    &kp ENTER  &mo 3        &trans            &trans
             >;
         };
 
