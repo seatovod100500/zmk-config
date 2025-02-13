@@ -50,8 +50,8 @@
 
             bindings = <
 &trans  &none      &none           &none           &none            &none                               &none           &none         &none         &none         &kp EXCLAMATION  &kp QUESTION
-&none   &kp PG_UP  &kp HOME        &kp UP_ARROW    &kp END          &kp INSERT                          &none           &kp N7        &kp N8        &kp N9        &kp KP_SUBTRACT  &kp KP_DIVIDE
-&none   &kp PG_DN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none                               &kp KP_EQUAL    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_PLUS      &kp KP_ASTERISK
+&trans  &kp PG_UP  &kp HOME        &kp UP_ARROW    &kp END          &kp INSERT                          &none           &kp N7        &kp N8        &kp N9        &kp KP_SUBTRACT  &kp KP_DIVIDE
+&trans  &kp PG_DN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none                               &kp KP_EQUAL    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_PLUS      &kp KP_ASTERISK
 &trans  &trans     &trans          &kp CAPSLOCK    &trans           &kp DELETE  &none        &sl 1      &kp UNDERSCORE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_COMMA     &trans
                                    &trans          &trans           &mo 3       &kp SPACE    &kp ENTER  &mo 3           &kp NUMBER_0  &kp KP_DOT
             >;
