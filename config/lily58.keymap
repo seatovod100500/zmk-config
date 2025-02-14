@@ -85,7 +85,7 @@
 &trans  &trans                &kp AT_SIGN           &none      &kp HASH               &trans                             &none        &none             &kp CARET       &none              &none            &studio_unlock
 &trans  &trans                &kp LESS_THAN         &kp EQUAL  &kp GREATER_THAN       &kp GRAVE                          &none        &kp LEFT_BRACKET  &kp UNDERSCORE  &kp RIGHT_BRACKET  &none            &none
 &trans  &kp NON_US_BACKSLASH  &kp LEFT_PARENTHESIS  &kp MINUS  &kp RIGHT_PARENTHESIS  &kp PLUS                           &kp PERCENT  &kp LEFT_BRACE    &kp SEMICOLON   &kp RIGHT_BRACE    &kp EXCLAMATION  &none
-&trans  &trans                &kp ASTERISK          &kp COLON  &kp DOLLAR             &none      &none        &trans     &kp UNDER    &kp PIPE          &kp TILDE       &kp AMPERSAND      &none            &trans
+&trans  &kp SLASH             &kp ASTERISK          &kp COLON  &kp DOLLAR             &kp UNDER  &none        &trans     &kp UNDER    &kp PIPE          &kp TILDE       &kp AMPERSAND      &none            &trans
                                                     &trans     &trans                 &mo 3      &kp SPACE    &kp ENTER  &mo 3        &trans            &trans
             >;
         };
