@@ -34,6 +34,13 @@
             tapping-term-ms = <5>;
             bindings = <&kp LSHFT>, <&kp LG(SPACE)>;
         };
+
+        MYCAPS: MYCAPS {
+            compatible = "zmk,behavior-caps-word";
+            label = "MYCAPS";
+            #binding-cells = <0>;
+            continue-list = <A B C D E F G H I J K L M N O P Q R S T U V W X Y Z>;
+        };
     };
 
     keymap {
@@ -82,7 +89,7 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&trans     &trans                &kp LEFT_BRACE        &kp RIGHT_BRACE        &none       &trans                                 &none        &none      &none           &none          &none            &studio_unlock
+&trans     &trans                &kp LEFT_BRACE        &kp RIGHT_BRACE        &none       &trans                                 &none        &none      &none           &none          &none            &none
 &kp GRAVE  &kp TILDE             &kp LESS_THAN         &kp GREATER_THAN       &kp STAR    &kp KP_DIVIDE                          &kp EQUAL    &kp AT     &kp UNDERSCORE  &kp CARET      &kp QUESTION     &none
 &trans     &kp NON_US_BACKSLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS    &kp KP_MINUS                           &kp PERCENT  &kp COLON  &kp SEMICOLON   &kp AMPERSAND  &kp EXCLAMATION  &none
 &trans     &none                 &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOLLAR  &kp UNDER      &kp PIPE     &trans     &none        &none      &none           &none          &none            &trans
@@ -92,11 +99,11 @@
 
         media_layer {
             bindings = <
-&none   &trans  &trans  &trans  &trans  &trans                    &trans  &trans             &trans            &trans           &trans  &bt BT_CLR
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &kp C_VOLUME_DOWN  &kp C_MUTE        &kp C_VOLUME_UP  &trans  &bt BT_SEL 0
-&trans  &trans  &trans  &none   &none   &trans                    &trans  &kp C_PREV         &kp C_PLAY_PAUSE  &kp C_NEXT       &trans  &bt BT_SEL 1
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp C_BRI_DEC      &none             &kp C_BRI_INC    &trans  &bt BT_SEL 2
-                        &trans  &trans  &trans  &trans    &trans  &trans  &trans             &trans
+&studio_unlock  &trans  &trans  &trans  &trans  &trans                    &trans  &trans             &trans            &trans           &trans  &bt BT_CLR
+&trans          &trans  &trans  &trans  &trans  &trans                    &trans  &kp C_VOLUME_DOWN  &kp C_MUTE        &kp C_VOLUME_UP  &trans  &bt BT_SEL 0
+&trans          &trans  &trans  &none   &none   &trans                    &trans  &kp C_PREV         &kp C_PLAY_PAUSE  &kp C_NEXT       &trans  &bt BT_SEL 1
+&trans          &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp C_BRI_DEC      &none             &kp C_BRI_INC    &trans  &bt BT_SEL 2
+                                &trans  &trans  &trans  &trans    &trans  &trans  &trans             &trans
             >;
         };
     };
