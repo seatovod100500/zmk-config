@@ -35,9 +35,9 @@
             bindings = <&kp LSHFT>, <&kp LG(SPACE)>;
         };
 
-        MYCAPS: MYCAPS {
+        my_caps: my_caps {
             compatible = "zmk,behavior-caps-word";
-            label = "MYCAPS";
+            label = "MY_CAPS";
             #binding-cells = <0>;
             continue-list = <A B C D E F G H I J K L M N O P Q R S T U V W X Y Z>;
         };
@@ -89,10 +89,10 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&trans     &trans                &kp LEFT_BRACE        &kp RIGHT_BRACE        &none       &trans                                 &none        &none      &none           &none          &none            &MYCAPS
+&trans     &trans                &kp LEFT_BRACE        &kp RIGHT_BRACE        &none       &trans                                 &none        &none      &none           &none          &none            &none
 &kp GRAVE  &kp TILDE             &kp LESS_THAN         &kp GREATER_THAN       &kp STAR    &kp KP_DIVIDE                          &kp EQUAL    &kp AT     &kp UNDERSCORE  &kp CARET      &kp QUESTION     &none
 &trans     &kp NON_US_BACKSLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS    &kp KP_MINUS                           &kp PERCENT  &kp COLON  &kp SEMICOLON   &kp AMPERSAND  &kp EXCLAMATION  &none
-&trans     &none                 &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOLLAR  &kp UNDER      &kp PIPE     &trans     &none        &none      &none           &none          &none            &trans
+&trans     &none                 &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOLLAR  &kp UNDER      &kp PIPE     &my_caps   &none        &none      &none           &none          &none            &trans
                                                        &trans                 &trans      &mo 3          &kp SPACE    &kp ENTER  &mo 3        &trans     &trans
             >;
         };
